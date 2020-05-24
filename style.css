@@ -1,0 +1,490 @@
+/*For all the elements*/
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+/*---------------------MENU---------------------*/
+.top_header{
+	height: 80px;
+	width: 100%;
+	display: block;
+	background-color: #101010;
+  	overflow: hidden;
+  	position: sticky;
+  	position: -webkit-sticky;
+  	top: 0;
+}
+
+.logo img{ 	
+	padding-left: 40px;
+	padding-top: 18px;
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	padding-right: 40px;
+	padding-top: 28px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+/*---------------------MENU---------------------*/
+
+/*---------------------HEADER-------------------*/
+.header{
+	height: 90%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/Resort1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.header h1{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 55px;
+}
+
+.header p{
+	margin: 18px 0px;
+	padding-bottom: 20px;
+}
+
+.header h6{
+	padding-top: 200px;
+	padding-bottom: 0px;
+	font-size: 20px;
+}
+/*---------------------HEADER-------------------*/
+
+/*---------------------SEARCH-------------------*/
+.booking-table{
+	padding-top: 50px;
+	height: 40%;
+}
+
+.booking-table h1{
+	padding-bottom: 10px;
+}
+
+.booking-table p{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.input-group{
+	width: 90%;
+	max-width: 500px;
+	border-radius: 30px;
+	background: #fff;
+	margin: auto;
+	padding: 2px;
+}
+
+.form-control{
+	border: 0 !important;
+	border-radius: 30px !important;
+	margin: 2px;
+	box-shadow: none !important;
+}
+
+.input-group-text{
+	width: 100px;
+	height: 40px;
+	background-image: linear-gradient(#00ff73,#1f3d90);
+	border: 0 !important;
+	color: #fff !important;
+	padding: 0 25px !important;
+	border-radius: 30px !important;
+	box-shadow: none !important;
+
+}
+/*---------------------SEARCH-------------------*/
+
+/*---------------------IMG1-------------------*/
+.img1{
+	height: 60%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/Resort2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+/*---------------------IMG2-------------------*/
+
+/*---------------------DESTI-------------------*/
+.desti{
+	height: 100%;
+	padding-top: 60px;
+	margin-bottom: 60px;
+}
+
+.desti img{
+	width: 100%;
+	position: relative;
+	transition: 1s;
+}
+
+.desti img:hover{
+	transform: scale(1.1);
+}
+
+.desti .t{
+	width: 100%;
+	position: relative;
+	padding-top: 20px;
+	transition: 1s;
+}
+
+.desti .t:hover{
+	transform: scale(1.1);
+}
+
+.desti p{
+	text-align: justify;
+	padding-top: 0px;
+}
+
+.desti .container H1{
+	text-align: justify;
+	padding-top: 80px;
+	padding-bottom: 10px;
+}
+
+.explore-btn{
+	width: 120px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 1px solid #000;
+	border-radius: 0px;
+	background: transparent;
+	color: #000;
+	margin-top: 20px;
+}
+
+.explore-btn:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+
+/*---------------------DESTI-------------------*/
+
+/*---------------------IMG1-------------------*/
+.img2{
+	height: 60%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/Resort8.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+/*---------------------IMG2-------------------*/
+
+/*---------------------KEY-----------------*/
+.key-points{
+	height: 100%;
+	padding-top: 60px;
+	margin-bottom: 180px;
+}
+
+.key-box img{
+	position: absolute;
+	width: 100%;
+	transition: 1s;
+}
+
+.key-box img:hover{
+	transform: scale(1.1);
+}
+
+.key-details h1{
+	text-align: justify;
+	padding-top: 80px;
+	padding-bottom: 10px;
+	transition: 1s;
+}
+
+.key-details p{
+	text-align: justify;
+	padding-top: 0px;
+}
+
+.key-details2 h1{
+	text-align: justify;
+	padding-top: 160px;
+	padding-bottom: 10px;
+	transition: 1s;
+}
+
+.key-box2 img{
+	padding-top: 100px;
+	position: absolute;
+	width: 100%;
+	transition: 1s;
+}
+
+.key-box2 img:hover{
+	transform: scale(1.1);
+}
+
+
+/*---------------------KEY-----------------*/
+
+
+/*---------------------FEATURES-----------------*/
+
+.feature-box{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	margin-bottom: 30px;
+}
+
+.features{
+	padding: 100px 0;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.feature-img img{
+	width: 100%;
+}
+
+.feature-img{
+	position: relative;
+}
+
+.price{
+	width: 80px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	position: absolute;
+	left: 20px;
+	bottom: 170px;
+}
+
+.rating{
+	padding: 3px;
+	float: right;
+	bottom: -1px;
+	right: 0;
+	position: absolute;
+}
+
+.features .fa{
+	font-size: 15px;
+	color: #ff5722;
+}
+
+.feature-deatils{
+	padding: 20px;
+	text-align: justify;
+}
+
+.feature-deatils h4{
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.feature-deatils .fa{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/*---------------------FEATURES-----------------*/
+
+/*---------------------FACILITIES---------------*/
+
+.facility{
+	height: 90%;
+	padding-top: 100px;
+	background: #efefef;
+	/*background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/3.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+	text-align: center;
+	color: #fff;
+	*/
+}
+
+.facility-box img{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.facility-box img:hover{
+	transform: scale(1.1);
+}
+
+.facility-box h4{
+	width: 250px;
+	text-align: center;
+	font-weight: 600;
+	position: relative;
+}
+
+.facility-box{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+/*---------------------FACILITIES---------------*/
+
+/*---------------------BANNER-------------------*/
+.banner{
+	height: 80%;
+	background-image: url(images/room1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 12%;
+}
+
+.banner-highlights{
+	padding: 70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+}
+
+.booking-btn{
+	width: 225px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.booking-btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+/*---------------------BANNER-------------------*/
+
+/*---------------------REVIEW-------------------*/
+
+.users-feedback{
+	padding: 100px 0;
+}
+
+.user-review{
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+	padding-bottom: 50px;
+}
+
+.users-feedback p{
+	text-align: center;
+}
+
+.user-review p{
+	padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	margin: -30px 0 20px 40%;
+}
+
+.user-review p::before{
+	content: '\201d';
+	display: block;
+	position: absolute;
+	font-size: 100px;
+	color: #6495ed;
+	font-family: sans-serif;
+	left: 44%;
+	top: -20px;
+}
+
+/*---------------------REVIEW-------------------*/
+
+/*---------------------FOOTER-------------------*/
+.footer{
+	padding: 20px 20px 15px;
+	background-image: linear-gradient(#101010,#101010);
+	color: #fff;
+}
+
+.footer-logo{
+	width: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.footer h4{
+	text-align: left;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+.footer p{
+	font-size: 12px;
+	text-align: justify;
+	padding-right: 35px;
+}
+
+.footer .row .fa{
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+.footer hr{
+	margin-top: 10px;
+	background: #fff;
+}
+/*---------------------FOOTER-------------------*/
+
+/*x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x*/
+
+/*---------------------DESTINATIONS PAGE-------------------*/
