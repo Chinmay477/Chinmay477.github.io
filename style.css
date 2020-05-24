@@ -377,7 +377,7 @@ h1{
 /*---------------------BANNER-------------------*/
 .banner{
 	height: 80%;
-	background-image: url(images/room1.jpg);
+	background-image: url(Images/room1.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
