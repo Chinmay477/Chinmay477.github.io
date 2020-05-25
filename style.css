@@ -11,10 +11,8 @@
 	width: 100%;
 	display: block;
 	background-color: #101010;
-  	overflow: hidden;
-  	position: sticky;
-  	position: -webkit-sticky;
-  	top: 0;
+	z-index: 12;
+	position: fixed;
 }
 
 .logo img{ 	
@@ -58,7 +56,7 @@ ul li.active a{
 
 /*---------------------HEADER-------------------*/
 .header{
-	height: 90%;
+	height: 100%;
 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/Resort1.jpg);
 	background-size: cover;
 	background-position: center;
@@ -69,18 +67,19 @@ ul li.active a{
 }
 
 .header h1{
-	padding-top: 0px;
+	padding-top: 10px;
 	padding-bottom: 0px;
-	font-size: 55px;
+	font-size: 70px;
 }
 
 .header p{
-	margin: 18px 0px;
+	margin: 14px 0px;
 	padding-bottom: 20px;
+	font-size: 20px;
 }
 
 .header h6{
-	padding-top: 200px;
+	padding-top: 275px;
 	padding-bottom: 0px;
 	font-size: 20px;
 }
@@ -201,7 +200,7 @@ ul li.active a{
 
 /*---------------------DESTI-------------------*/
 
-/*---------------------IMG1-------------------*/
+/*---------------------IMG2-------------------*/
 .img2{
 	height: 60%;
 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/Resort8.jpg);
@@ -264,12 +263,39 @@ ul li.active a{
 
 /*---------------------KEY-----------------*/
 
+/*---------------------IMG3-------------------*/
+.img3{
+	height: 60%;
+	background-image: url(Images/gym.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 7%;
+}
+
+.banner-highlights2{
+	padding-top: 50px;
+	padding: 70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+	
+}
+/*---------------------IMG3-------------------*/
+
+/*---------------------KEY-----------------*/
+.gym-pool{
+	height: 100%;
+	padding-top: 60px;
+	margin-bottom: 180px;
+}
+/*---------------------KEY-----------------*/
 
 /*---------------------FEATURES-----------------*/
 
 .feature-box{
 	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 }
 
 .features{
@@ -324,6 +350,7 @@ h1{
 .feature-deatils h4{
 	font-weight: 600;
 	margin-top: 20px;
+	margin-bottom: 15px;
 }
 
 .feature-deatils .fa{
@@ -374,14 +401,15 @@ h1{
 
 /*---------------------FACILITIES---------------*/
 
+
 /*---------------------BANNER-------------------*/
 .banner{
-	height: 80%;
+	height: 60%;
 	background-image: url(Images/room1.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	padding-top: 12%;
+	padding-top: 7%;
 }
 
 .banner-highlights{
@@ -411,7 +439,7 @@ h1{
 /*---------------------REVIEW-------------------*/
 
 .users-feedback{
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 .user-review{
@@ -488,3 +516,177 @@ h1{
 /*x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x*/
 
 /*---------------------DESTINATIONS PAGE-------------------*/
+
+/*---------------------HEADER-------------------*/
+.header2{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/Resort2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.header2 h1{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-size: 70px;
+}
+
+.header2 p{
+	margin: 14px 0px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.header2 h6{
+	padding-top: 275px;
+	padding-bottom: 0px;
+	font-size: 20px;
+}
+/*---------------------HEADER-------------------*/
+
+
+/*---------------------OVERVIEW-------------------*/
+.destiation-overview{
+	height: 100%;
+	padding-top: 60px;
+	margin-bottom: 60px;
+}
+
+.destiation-overview img{
+	width: 95%;
+	position: absolute;
+	transition: 1s;
+}
+
+.destiation-overview H1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.destiation-overview P{
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 10px;
+}
+
+.img-box1 img{
+	padding-top: 330px;
+	position: relative;
+	width: 100%;
+	transition: 1s;
+}
+
+.img-box1 img:hover{
+	transform: scale(1.1);
+}
+/*---------------------OVERVIEW-------------------*/
+
+/*------------------------IMG4--------------------*/
+.img4{
+	height: 60%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/Resort5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 7%;
+}
+
+.banner-highlights2{
+	padding-top: 50px;
+	padding: 70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+	
+}
+/*------------------------IMG4----------------------*/
+
+/*x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x*/
+
+/*---------------------ROOMS PAGE-------------------*/
+
+/*---------------------HEADER-----------------------*/
+.header3{
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/rooms1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.header3 h1{
+	padding-top: 300px;
+	padding-bottom: 0px;
+	font-size: 70px;
+}
+
+.header3 p{
+	text-align: center;
+	margin: 14px 0px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.header3 h6{
+	padding-top: 275px;
+	padding-bottom: 0px;
+	font-size: 20px;
+}
+/*---------------------HEADER------------------------*/
+
+/*---------------------ROOMS-INFO-------------------*/
+.rooms-info{
+	height: 40%;
+	padding-bottom: 10px;
+}
+
+.rooms-info h1{
+	padding-top: 60px;
+	padding-bottom: 0px;
+}
+
+.rooms-info p{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+/*---------------------ROOMS-INFO-------------------*/
+
+/*---------------------SINGLE-ROOM------------------*/
+.single-room{
+	height: 190%;
+}
+
+.single-room img{
+	width: 100%;
+	position: relative;
+	transition: 1s;
+}
+/*---------------------SINGLE-ROOM------------------*/
+
+/*------------------------IMG5--------------------*/
+.img5{
+	height: 60%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(Images/eroom-3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 7%;
+}
+
+.banner-highlights2{
+	padding-top: 50px;
+	padding: 70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+	
+}
+/*------------------------IMG4----------------------*/
